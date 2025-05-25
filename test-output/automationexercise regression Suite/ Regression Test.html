@@ -1,0 +1,145 @@
+<html>
+<head>
+<title>TestNG:   Regression Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'> Regression Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>13/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu May 08 11:54:58 EEST 2025</td>
+</tr>
+<tr><td>Total time:</td><td>111 seconds (111452 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='Tests.UserLoginTest.userCanLoginSuccessfully()'><b>userCanLoginSuccessfully</b><br>Test class: Tests.UserLoginTest</td>
+<td></td>
+<td>6</td>
+<td>Tests.UserLoginTest@233795b6</td></tr>
+<tr>
+<td title='Tests.UnregisteredUserCheckOutAndDownloadInvoiceTest.UserCanAddProductToCart()'><b>UserCanAddProductToCart</b><br>Test class: Tests.UnregisteredUserCheckOutAndDownloadInvoiceTest</td>
+<td></td>
+<td>11</td>
+<td>Tests.UnregisteredUserCheckOutAndDownloadInvoiceTest@f5958c9</td></tr>
+<tr>
+<td title='Tests.UserRegisterationTest.userCanLoginSuccessfully()'><b>userCanLoginSuccessfully</b><br>Test class: Tests.UserRegisterationTest</td>
+<td></td>
+<td>6</td>
+<td>Tests.UserRegisterationTest@682b2fa</td></tr>
+<tr>
+<td title='Tests.UnregisteredUserCheckOutAndDownloadInvoiceTest.registeredUserCanCheckOut()'><b>registeredUserCanCheckOut</b><br>Test class: Tests.UnregisteredUserCheckOutAndDownloadInvoiceTest</td>
+<td></td>
+<td>12</td>
+<td>Tests.UnregisteredUserCheckOutAndDownloadInvoiceTest@f5958c9</td></tr>
+<tr>
+<td title='Tests.RegisteredUserCheckOutAndDownloadInvoiceTest.userCanRegistersuccessfully()'><b>userCanRegistersuccessfully</b><br>Test class: Tests.RegisteredUserCheckOutAndDownloadInvoiceTest</td>
+<td></td>
+<td>8</td>
+<td>Tests.RegisteredUserCheckOutAndDownloadInvoiceTest@477b4cdf</td></tr>
+<tr>
+<td title='Tests.RegisteredUserCheckOutAndDownloadInvoiceTest.registeredUserCanCheckOut()'><b>registeredUserCanCheckOut</b><br>Test class: Tests.RegisteredUserCheckOutAndDownloadInvoiceTest</td>
+<td></td>
+<td>10</td>
+<td>Tests.RegisteredUserCheckOutAndDownloadInvoiceTest@477b4cdf</td></tr>
+<tr>
+<td title='Tests.RegisteredUserCheckOutAndDownloadInvoiceTest.UserCanAddProductToCart()'><b>UserCanAddProductToCart</b><br>Test class: Tests.RegisteredUserCheckOutAndDownloadInvoiceTest</td>
+<td></td>
+<td>7</td>
+<td>Tests.RegisteredUserCheckOutAndDownloadInvoiceTest@477b4cdf</td></tr>
+<tr>
+<td title='Tests.SearchProductTest.userCanSearchForProduct()'><b>userCanSearchForProduct</b><br>Test class: Tests.SearchProductTest</td>
+<td></td>
+<td>8</td>
+<td>Tests.SearchProductTest@77c2494c</td></tr>
+<tr>
+<td title='Tests.UnregisteredUserCheckOutAndDownloadInvoiceTest.guestUserCanLoginORRegister()'><b>guestUserCanLoginORRegister</b><br>Test class: Tests.UnregisteredUserCheckOutAndDownloadInvoiceTest</td>
+<td></td>
+<td>5</td>
+<td>Tests.UnregisteredUserCheckOutAndDownloadInvoiceTest@f5958c9</td></tr>
+<tr>
+<td title='Tests.UserRegisterationTest.userCanRegistersuccessfully()'><b>userCanRegistersuccessfully</b><br>Test class: Tests.UserRegisterationTest</td>
+<td></td>
+<td>14</td>
+<td>Tests.UserRegisterationTest@682b2fa</td></tr>
+<tr>
+<td title='Tests.ContactUSTest.userCanUseContactUs()'><b>userCanUseContactUs</b><br>Test class: Tests.ContactUSTest</td>
+<td></td>
+<td>2</td>
+<td>Tests.ContactUSTest@3eb25e1a</td></tr>
+<tr>
+<td title='Tests.AddProductToCartTest.UserCanAddProductToCart()'><b>UserCanAddProductToCart</b><br>Test class: Tests.AddProductToCartTest</td>
+<td></td>
+<td>9</td>
+<td>Tests.AddProductToCartTest@6743e411</td></tr>
+<tr>
+<td title='Tests.UserRegisterationTest.userCanLogout()'><b>userCanLogout</b><br>Test class: Tests.UserRegisterationTest</td>
+<td></td>
+<td>7</td>
+<td>Tests.UserRegisterationTest@682b2fa</td></tr>
+</table><p>
+</body>
+</html>

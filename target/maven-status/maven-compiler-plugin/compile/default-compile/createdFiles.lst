@@ -1,0 +1,10 @@
+Pages\PageBase.class
+Pages\RegisteredUserCheckOutAndDownloadInvoicePage.class
+Pages\ProductDetailsPage.class
+Pages\UnregisteredUserCheckOutAndDownloadInvoicePage.class
+Pages\UserLoginPage.class
+Pages\AddProductToCartPage.class
+Pages\HomePage.class
+Pages\ContactUSPage.class
+Pages\SearchPage.class
+Pages\UserRegisterationPage.class
