@@ -1,17 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [automationexercise regression Suite]">
-  <parameter name="browser" value="chrome"/>
+  <parameter name="browser" value="chrome-headless"/>
   <test thread-count="5" name=" Regression Test(failed)">
     <classes>
-      <class name="Tests.UserLoginTest">
+      <class name="Tests.UserRegisterationTest">
         <methods>
           <include name="stopDriver"/>
+          <include name="setUpClass"/>
+          <include name="userCanRegistersuccessfully"/>
           <include name="startDriver"/>
+          <include name="tearDownClass"/>
           <include name="userCanLoginSuccessfully"/>
           <include name="screenshotOnFailure"/>
+          <include name="userCanLogout"/>
         </methods>
-      </class> <!-- Tests.UserLoginTest -->
+      </class> <!-- Tests.UserRegisterationTest -->
     </classes>
   </test> <!--  Regression Test(failed) -->
 </suite> <!-- Failed suite [automationexercise regression Suite] -->

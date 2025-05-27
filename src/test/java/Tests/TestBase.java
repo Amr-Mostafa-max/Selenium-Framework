@@ -50,9 +50,18 @@ public class TestBase  extends AbstractTestNGCucumberTests{
 		else if (browserName.equalsIgnoreCase("ie")) {
 			driver = new InternetExplorerDriver();
 		}
-
+		// headless browser testing
+		else if (browserName.equalsIgnoreCase("chrome-headless")) {
+			ChromeOptions option = new ChromeOptions();
+			option.addArguments("--headless=new");
+//			option.addArguments("--disable-gpu");
+//			option.addArguments("--no-sandbox");
+//			option.addArguments("--disable-dev-shm-usage");
+//			option.addArguments("--remote-allow-origins=*");
+			option.addArguments("--window-size=1920,1080");
+			driver = new ChromeDriver(option);
+		}
 		driver.manage().window().maximize();
-		//		driver.manage().timeouts().implicitlyWait(200, TimeUnit.SECONDS);
 		driver.navigate().to("https://www.automationexercise.com/");
 	}
 

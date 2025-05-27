@@ -17,10 +17,10 @@ public class UserRegisterationTest extends TestBase {
 		homeObject = new HomePage(driver);
 		homeObject.openRgisterationLink();
 		register = new UserRegisterationPage(driver);
-		register.newUserSignup("amrali", "amrgado67xx54@gmail.com");
+		register.newUserSignup("amrali", "srt8495@gmail.com");
 		register.userRegisteration( "amr" , "ali" ,"amr@1234" ,"cairo" ,"Canada", "district5", "zayed", "12655" , "1090123029");
 		//assertTrue(register.successTxt.getText().contains("Account Created!") );
-//		assertEquals(register.successTxt.getText(), "ACCOUNT CREATED!");
+       //assertEquals(register.successTxt.getText(), "ACCOUNT CREATED!");
 		
 	}
 
@@ -36,7 +36,7 @@ public class UserRegisterationTest extends TestBase {
 		homeObject =  new HomePage(driver);
 		login = new UserLoginPage(driver);
 		homeObject.openRgisterationLink();
-		login.userLogin("amrgado67xx54@gmail.com", "amr@1234");
+		login.userLogin("srt8495@gmail.com", "amr@1234");
 	}
 
 }
