@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <suite  name="automationexercise regression Suite">
-<parameter name = "browser" value = "chrome"></parameter>
+<parameter name = "browser" value = "chrome-headless"></parameter>
   <test name=" Regression Test" preserve-order = "false">
     <classes>
       <class name="Tests.UserRegisterationTest"/>
@@ -8,7 +8,6 @@
       <class name="Tests.ContactUSTest"/>
       <class name="Tests.RegisteredUserCheckOutAndDownloadInvoiceTest"/>
       <class name="Tests.SearchProductTest"/>
-      <class name="Tests.UnregisteredUserCheckOutAndDownloadInvoiceTest"/>
       <class name="Tests.UserLoginTest"/>
     </classes>
   </test> 

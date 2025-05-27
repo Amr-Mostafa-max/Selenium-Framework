@@ -20,7 +20,7 @@ public class RegisteredUserCheckOutAndDownloadInvoiceTest extends TestBase {
 		homeObject = new HomePage(driver);
 		homeObject.openRgisterationLink();
 		register = new UserRegisterationPage(driver);
-		register.newUserSignup("amrali", "amrgadzzoxo50904@gmail.com");
+		register.newUserSignup("amrali", "yuop41o3@gmail.com");
 		register.userRegisteration( "amr" , "ali" ,"amr@1234" ,"cairo" ,"Canada", "district5", "zayed", "12655" , "1090123029");
 	}
 

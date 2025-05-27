@@ -3,16 +3,18 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="runner.TestRunner">
+      <class name="Tests.UserRegisterationTest">
         <methods>
           <include name="stopDriver"/>
           <include name="setUpClass"/>
+          <include name="userCanRegistersuccessfully"/>
           <include name="startDriver"/>
-          <include name="runScenario" invocation-numbers="1 2"/>
           <include name="tearDownClass"/>
+          <include name="userCanLoginSuccessfully"/>
+          <include name="userCanLogout"/>
           <include name="screenshotOnFailure"/>
         </methods>
-      </class> <!-- runner.TestRunner -->
+      </class> <!-- Tests.UserRegisterationTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -24,7 +24,7 @@ public class UnregisteredUserCheckOutAndDownloadInvoiceTest extends TestBase {
 	public void guestUserCanLoginORRegister() {
 		guest = new UnregisteredUserCheckOutAndDownloadInvoicePage(driver);
 		guest.loginOrRegisterForGuestToCheckOut();
-		guest.guestUserLogin("amrgadoooo54@gmail.com", "amr@1234");
+		guest.guestUserLogin("amrg4@gmail.com", "amr@1234");
 	}
 
 	@Test 
