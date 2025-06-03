@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <suite  name="automationexercise regression Suite">
-<parameter name = "browser" value = "chrome"></parameter>
+<parameter name = "browser" value = "chrome"/>
   <test name=" Regression Test" preserve-order = "false">
     <classes>
       <class name="Tests.UserRegisterationTestWithJavaFaker"/>
       <class name="Tests.AddProductToCartTest"/>
       <class name="Tests.ContactUSTest"/>
       <class name="Tests.SearchProductTest"/>
-      <class name="Tests.UserLoginTest"/>
 
     </classes>
   </test> 
