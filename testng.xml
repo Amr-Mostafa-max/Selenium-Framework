@@ -3,12 +3,14 @@
 <parameter name = "browser" value = "chrome-headless"></parameter>
   <test name=" Regression Test" preserve-order = "false">
     <classes>
-      <class name="Tests.UserRegisterationTest"/>
+      <class name="Tests.UserRegisterationTestWithJavaFaker"/>
       <class name="Tests.AddProductToCartTest"/>
       <class name="Tests.ContactUSTest"/>
-      <class name="Tests.RegisteredUserCheckOutAndDownloadInvoiceTest"/>
       <class name="Tests.SearchProductTest"/>
+<<<<<<< Updated upstream
       <class name="Tests.UserLoginTest"/>
+=======
+>>>>>>> Stashed changes
     </classes>
   </test> 
 </suite> 

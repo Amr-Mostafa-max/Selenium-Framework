@@ -1,0 +1,15 @@
+# Ignore build and output folders
+target/
+test-output/
+
+# Ignore compiled class files
+*.class
+
+# IDE-specific files
+.classpath
+.project
+.settings/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
