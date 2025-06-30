@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite  name="automationexercise regression Suite" parallel ="tests" thread-count = "2" >
+  <test name="Chrome  Regression Test">
+  <parameter name = "browser" value = "chrome"></parameter>
+    <classes>
+      <class name="Tests.UserRegisterationParallelTesting"/>     
+    </classes>
+  </test> 
+  
+    <test name="FireFox Regression Test">
+  <parameter name = "browser" value = "firefox"></parameter>
+    <classes>
+      <class name="Tests.UserRegisterationParallelTesting"/>     
+    </classes>
+  </test> 
+</suite> 
